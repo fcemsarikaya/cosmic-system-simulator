@@ -13,7 +13,8 @@ public class Simulation {
     public static void main (String[] args){
 
         //todo: enable user input
-
+        //todo: extend simulation to use all classes
+        
         //Example cosmic system:
         Body sun = new Body("Sol", 1.989e30, 696340e3, new Vector3(0,0,0) ,new Vector3(0,0,0), StdDraw.YELLOW);
         Body earth = new Body("Earth", 5.972e24, 6371e3, new Vector3(148e9,0,0) ,new Vector3(0,29.29e3,0), StdDraw.BLUE);
